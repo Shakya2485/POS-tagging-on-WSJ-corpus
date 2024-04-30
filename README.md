@@ -1,1 +1,7 @@
-Enhancing Text Understanding: WSJ Corpus POS Tagging with LSTM and Metrics Mastery
+This project employs a recurrent neural network (RNN) approach for Part-of-Speech (POS) tagging on the Wall Street Journal (WSJ) corpus. Initial data preprocessing involves sentence tokenization and extraction of corresponding POS tags. The dataset undergoes division into training, validation, and testing subsets to facilitate model training and evaluation.
+
+The model architecture features a bidirectional Long Short-Term Memory (LSTM) neural network, chosen for its capability to capture sequential dependencies and context information in the input sequences. Training of the model utilizes the Adam optimizer alongside the sparse categorical cross-entropy loss function, aimed at minimizing the dissimilarity between predicted and actual POS tags.
+
+Throughout the training phase, the model's performance is systematically monitored via tracking of both training and validation loss metrics across multiple epochs. This process enables the detection of convergence patterns and potential overfitting tendencies. Subsequently, the model undergoes evaluation on the testing dataset, where its efficacy is assessed through various performance metrics including accuracy, precision, recall, and F1-score for each POS tag.
+
+This approach represents a rigorous and technically sound methodology for POS tagging, leveraging advanced deep learning techniques to achieve accurate linguistic analysis in natural language processing tasks.
